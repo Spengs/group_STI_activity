@@ -26,18 +26,6 @@ function calcBonus (empArray) {
         	default: 
 
         }
-        /*Casie created a function right here. 
-        function adjustBonusPercent(empNumber, bonusPercent, currentSalary){
-            if(empNumber.length == 4){
-                bonusPercent += .05;
-            }
-            if(currentSalary > 65000){
-                bonusPercent -= .01;
-            }
-            if(bonusPercent > .13){
-                bonusPercent = .13;
-            }
-        }*/
         if (employee[1].length == 4) {
         	bonus += .05;
         }
